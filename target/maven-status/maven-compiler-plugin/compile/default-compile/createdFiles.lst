@@ -1,6 +1,8 @@
-cfm/controller/HelloController.class
+cfm/controller/FilterModel.class
+cfm/controller/ServerObjectController.class
+cfm/service/CFMService.class
 cfm/CFMServerApplicationStarter.class
-cfm/util/CSVParser.class
+cfm/service/impl/CFMServiceImpl.class
 cfm/service/CSVService.class
 cfm/service/impl/CSVServiceImpl.class
 cfm/entity/ServerDataObject.class

@@ -16,22 +16,22 @@ public class ServerDataObject {
     private String objectId;
 
     @Column(name = "rowId")
-    private long rowId;
+    private String rowId;
 
     @Column(name = "a_Value")
     private String avalue;
 
     @Column(name = "address_Out")
-    private int addressOut;
+    private String addressOut;
 
     @Column(name = "address_In")
-    private int addressIn;
+    private String addressIn;
 
     @Column(name = "b_Value")
     private String bvalue;
 
     @Column(name = "bit_Position")
-    private int bitPosition;
+    private String bitPosition;
 
     @Column(name = "button_Path")
     private String buttonPath;
@@ -43,46 +43,46 @@ public class ServerDataObject {
     private String decimal;
 
     @Column(name = "default_Value")
-    private int defaultValue;
+    private String defaultValue;
 
     @Column(name = "_delay_")
-    private int delay;
+    private String delay;
 
     @Column(name = "_delta_")
-    private int delta;
+    private String delta;
 
     @Column(name = "_description_")
     private String description;
 
     @Column(name = "_dimension_")
-    private int dimension;
+    private String dimension;
 
     @Column(name = "_frequency_")
-    private int frequency;
+    private String frequency;
 
     @Column(name = "function_Code")
     private String functionCode;
 
     @Column(name = "_grpCategory_")
-    private int grpCategory;
+    private String grpCategory;
 
     @Column(name = "id_group")
-    private int idgroup;
+    private String idgroup;
 
     @Column(name = "idhs_Variable")
-    private int idhsVariable;
+    private String idhsVariable;
 
     @Column(name = "idvar_mdl")
-    private long idVarMdl;
+    private String idVarMdl;
 
     @Column(name = "_imageoff_")
     private String imageOff;
 
     @Column(name = "_imageon_")
-    private int imageOn;
+    private String imageOn;
 
     @Column(name = "insert_time")
-    private LocalDateTime insertTime;
+    private String insertTime;
 
     @Column(name = "is_Active")
     private String isActive;
@@ -91,7 +91,7 @@ public class ServerDataObject {
     private String isCancelled;
 
     @Column(name = "is_haccp")
-    private LocalDateTime isHaccp;
+    private String isHaccp;
 
     @Column(name = "is_logic")
     private String isLogic;
@@ -100,28 +100,28 @@ public class ServerDataObject {
     private String isOnChange;
 
     @Column(name = "last_update")
-    private LocalDateTime lastUpdate;
+    private String lastUpdate;
 
     @Column(name = "_length_")
-    private int length;
+    private String length;
 
     @Column(name = "_maximum_")
     private String maximum;
 
     @Column(name = "_minimum_")
-    private int minimum;
+    private String minimum;
 
     @Column(name = "_priority_")
-    private int priority;
+    private String priority;
 
     @Column(name = "read_write")
-    private int readWrite;
+    private String readWrite;
 
     @Column(name = "to_display")
     private String toDisplay;
 
     @Column(name = "_type_")
-    private int type;
+    private String type;
 
     @Column(name = "var_encoding")
     private String varEncoding;
