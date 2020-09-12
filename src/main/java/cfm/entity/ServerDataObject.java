@@ -40,7 +40,7 @@ public class ServerDataObject {
     private String code;
 
     @Column(name = "_decimal_")
-    private boolean decimal;
+    private String decimal;
 
     @Column(name = "default_Value")
     private int defaultValue;
@@ -85,19 +85,19 @@ public class ServerDataObject {
     private LocalDateTime insertTime;
 
     @Column(name = "is_Active")
-    private boolean isActive;
+    private String isActive;
 
     @Column(name = "is_Cancelled")
-    private boolean isCancelled;
+    private String isCancelled;
 
     @Column(name = "is_haccp")
     private LocalDateTime isHaccp;
 
     @Column(name = "is_logic")
-    private boolean isLogic;
+    private String isLogic;
 
     @Column(name = "is_onchange")
-    private boolean isOnChange;
+    private String isOnChange;
 
     @Column(name = "last_update")
     private LocalDateTime lastUpdate;
